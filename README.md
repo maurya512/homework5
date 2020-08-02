@@ -1,4 +1,6 @@
 # homework5
+<p> In this home work we are assigned a task to create a basic daily planner that implements moment.js library to keep up with real time and store the data in local storage. </p>
+<p> Also the data should stay persistent on the page until the user manually clears it. </p>
 
 # index.html
 <p> In this file we will work on the basic template of the daily planner. 
