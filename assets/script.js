@@ -2,11 +2,11 @@ var hour9 = $("#9");
 var hour10 = $("#10");
 var hour11 = $("#11");
 var hour12 = $("#12");
-var hour1 = $("#1");
-var hour2 = $("#2");
-var hour3 = $("#3");
-var hour4 = $("#4");
-var hour5 = $("#5");
+var hour1 = $("#13");
+var hour2 = $("#14");
+var hour3 = $("#15");
+var hour4 = $("#16");
+var hour5 = $("#17");
 var time = moment();
 
 function setPlanner() {
@@ -35,6 +35,7 @@ saveBtn.on("click", function () {
 
 var completeBtn = $(".completeBtn"); 
 completeBtn.on("click", function() {
+    
 })
 
 function dayPlanner() {
