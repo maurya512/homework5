@@ -11,7 +11,7 @@ var time = moment();
 
 function setPlanner() {
 
-    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
+    $("#currentDay").text(moment().format("dddd, MMMM Do YYYY, h:mm a"));
 
     $(".time-block").each(function () {
         var id = $(this).attr("id");
@@ -35,7 +35,6 @@ saveBtn.on("click", function () {
 
 var completeBtn = $(".completeBtn"); 
 completeBtn.on("click", function() {
-    localStorage.clear();
 })
 
 function dayPlanner() {
