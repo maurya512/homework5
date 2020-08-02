@@ -5,7 +5,7 @@ body {
   }
   
   textarea{
-    background: rgb(108, 216, 214);
+    background: transparent;
     border: none;
     resize: none;
     color: #170202;
@@ -68,7 +68,17 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06d56a9c;
-    color: white;
+    color: rgb(20, 19, 19);
+  }
+
+  .completeBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #d5520686;
+    color: rgb(14, 13, 13);
   }
   
   .saveBtn i:hover {
@@ -77,5 +87,5 @@ body {
   }
   
   .container {
-      background-color: rgb(238, 121, 32);
+      background-color: transparent;
   }
