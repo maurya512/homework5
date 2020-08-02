@@ -24,5 +24,8 @@ We started by tweaking the style.css file by changing the shape and radius of th
 # link to the planner
 https://maurya512.github.io/homework5/
 
-# screenshot of the planner based on the hours 
-![alt text](./assets/ss.png "Description goes here")
+# screenshot of the planner 
+![alt text](./assets/ss.png "Screenshot of the day planner")
+
+# screenshot of the planner at different hours
+![alt text](./assets/ss1.png "Screendhot of the day planner")
