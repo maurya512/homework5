@@ -20,10 +20,16 @@
         <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
+
+        <!-- in this container we created rows that will hold information about what hr it is, schedule input area and a button to save the task -->
         <div class="row time-block" id="9">
+            <!-- The first column that shows what hour it is -->
             <div class="col-1 hour">9 AM</div>
+            <!-- The second column is of textarea type that let's the user enter their task -->
             <textarea class="col-9 schedule" placeholder="ENTER YOUR TASK HERE!"></textarea>
+            <!-- The third column is of button type that when clicked will save the user's task into the local storage -->
             <button class="col-1 saveBtn fa fa-lock"></button>
+            <!-- The fourth column is of button type that when clicked will complete the user's task and clear the local storage of  that particular hour slot -->
             <button class="col-1 completeBtn fa fa-check-square"></button>
         </div>
         <div class="row time-block" id="10">
@@ -75,10 +81,15 @@
             <button class="col-1 completeBtn fa fa-check-square"></button>
           </div>
     </div>
+    <!-- Created a footer to make the template look a bit more appealing -->
     <div class="footer">
+        <!-- createad a container to hold rows and columns -->
         <div class="container">
+            <!-- created a row to hold the columns -->
             <div class="row">
+                <!-- created a column to hold the p tag -->
                 <div class="col-md-12">
+                    <!-- created a p tag that will have some text inside of it -->
                     <p>Plan your day using this Daily Planner</p>
                 </div>
             </div>
