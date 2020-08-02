@@ -22,3 +22,20 @@ function setPlanner() {
         }
     });
 }
+
+setPlanner();
+var saveBtn = $(".saveBtn");
+
+saveBtn.on("click", function () {
+    var time = $(this).parent().attr("id");
+    var schedule = $(this).siblings(".schedule").val();
+
+    localStorage.setItem(time, schedule);
+});
+
+var completeBtn = $(".completeBtn"); 
+completeBtn.on("click", function() {
+    localStorage.clear();
+})
+
+
