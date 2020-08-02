@@ -25,7 +25,4 @@ We started by tweaking the style.css file by changing the shape and radius of th
 https://maurya512.github.io/homework5/
 
 # screenshot of the planner based on the hours 
-assets/Screen Shot 2020-08-02 at 12.29.57 PM.png
-
-
-
+![alt text](./assets/ss.png "Description goes here")
